@@ -1,0 +1,51 @@
+.screens {
+    padding: 119px 0;
+    background-color:#F7FAFC;
+    height: 918px;
+    position: relative;
+    .carousel {
+        margin: 100px auto;
+        width:800px;
+        height: 300px;
+      img {
+          height: 500px;
+          box-shadow: 0px 0px 43px 0px rgba(0, 0, 0, 0.35);
+      }
+    }
+    a {
+        img {
+            width: 65px;
+            
+        }
+    }
+    .prev {
+        position: absolute;
+        top: 55%;
+        left: 10%;
+        width: 40px;
+    }
+    .next {
+        position: absolute;
+        top: 55%;
+        right: 10%;
+    }
+    &__title{
+        text-align: center;
+        font-family: Dosis;
+        font-size: 36px;
+        line-height: 30px;
+        font-weight: 500;
+        color: #222222;
+    }
+    &__subtitle{
+        margin: 31px auto;
+        text-align: center;
+        width: 600px;
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #777777;
+        margin-bottom: 158px;
+    }
+}

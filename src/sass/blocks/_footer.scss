@@ -1,0 +1,20 @@
+.footer {
+    padding: 60px;
+    height: 180px;
+    background-color: #222222;
+    &__links {
+        margin: 0 auto;
+        width: 122px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__text {
+        margin-top: 30px;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+}

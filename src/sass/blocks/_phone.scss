@@ -1,0 +1,104 @@
+.phone{
+    height: 1154px;
+    position: relative;
+    &__list{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 120px;
+        justify-content: space-between;
+        &__item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &__round {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 25px;
+            width: 75px;
+            height: 75px;
+            border: 1px solid #eeeeee;
+            border-radius: 50%;
+            img {
+                width: 24px;
+                height: 24px;
+            }
+        }
+        &__text {
+            span {
+                display: block;
+                font-family: 'Dosis';
+                font-size: 24px;
+                line-height: 24px;
+                font-weight: 500;
+                color: #222222;
+                margin-bottom: 20px;
+            }
+            font-family: 'Roboto';
+            margin-bottom: 58px;
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 300;
+            color: #777777;
+            width: 250px;
+        }
+    }
+
+    &__leave {
+        position: absolute;
+        right: 200px;
+        bottom: 176px;
+        width: 510px;
+        &__text_1  {
+            margin-top: 23px;
+            font-family: Roboto;
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 300;
+            color: #777777;
+        }
+        &__text_2 {
+            margin-top: 79px;
+            font-family: Roboto;
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 300;
+            color: #777777;
+        }
+        span {
+            font-family: 'Dosis';
+            font-size: 36px;
+            line-height: 30px;
+            font-weight: 500;
+            color: #222222;
+        }
+        ul {
+            margin-top: 37px;
+            list-style: none;
+            padding-inline-start: 0;
+            li {
+                padding-left: 36px;
+                margin-bottom: 10px;
+                background: url('../../img/checked_2.png') 3px no-repeat;
+            }
+        }
+    }
+
+    hr {
+        height: 2px;
+        margin-top: 59px;
+        background-color:#EEEEEE;
+    }
+    &__img{
+        position: absolute;
+        bottom: -100px;
+        right: 200px;
+    }
+
+}
+
+.last {
+    margin-top: 22px;
+}

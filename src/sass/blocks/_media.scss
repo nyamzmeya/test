@@ -1,0 +1,419 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 750px;
+        margin: 0 auto;
+      }
+    .promo {
+        height: 700px;
+        &__img {
+            top: 120px;
+            img{
+                width: 500px;
+            }
+        }
+        &__descr {
+            h1 {
+                font-size: 48px;
+                margin-top: 120px;
+            }
+        }
+    }
+    .phone {
+        
+        &__list {
+            margin-top: 80px;
+            &__text {
+                margin-bottom: 30px;
+                span {
+                    font-size: 20px;
+                }
+            }
+            &__round {
+                width: 70px;
+                height: 70px;
+            }
+        }
+        hr {
+            margin-top: 30px;
+        }
+        &__img {
+            bottom: 100px;
+            right: 400px;
+            img {
+                width: 700px;
+            }
+        }
+        &__leave {
+            bottom: 120px;
+            right: 0;
+            span {
+                font-size: 30px;
+            }
+            &__text {
+                &_1 {
+                    width: 300px;
+                }
+                &_2 {
+                    width: 300px;
+                    margin-top: 30px;
+                }
+            }
+            ul {
+                width: 300px;
+            }
+        }
+    }
+    .screens {
+        padding: 50px;
+    }
+    .packages {
+        padding-top: 50px;
+        &__item {
+            height: 400px;
+            margin-bottom: 30px;
+        }
+        &__list {
+            justify-content: space-around;
+        }
+        &__text {
+            &_1 {
+                line-height: 20px;
+                &_1 {
+                    margin-top: 60px;
+                }
+            }
+            &_2 {
+                margin-top: 20px;
+            }
+           
+        }
+
+    }
+    .video {
+        margin-top: 50px;
+        height: 300px;
+    }
+    .customers {
+        padding: 60px 60px 30px 60px;
+        &__reviews {
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        &__review_1 {
+            margin-bottom: 30px;
+        }
+    }
+    .app {
+        height: 300px;
+        padding: 60px;
+        &__app {
+            width: 300px;
+            a {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+        &__apps {
+            margin-top: 50px;
+        }
+    }
+    .footer {
+        padding: 30px;
+    }
+    .screens {
+        height: 600px;
+        &__subtitle {
+            margin-bottom: 20px;
+        }
+        .carousel {
+            width: 600px;
+            margin-top: 0;
+            img {
+                height: 300px;
+                width: 250px;
+                left: 50%;
+            }
+        }
+        .prev {
+            left: 5%;
+            top: 39%;
+        }
+        .next {
+            right: 5%;
+            top: 39%;
+        }
+
+}
+}
+
+@media (max-width: 991px) {
+    .container {
+        width: 650px;
+      }
+    .promo {
+        height: 650px;
+        &__descr {
+            width: 300px;
+            h1 {
+                font-size: 30px;
+                line-height: 40px;
+            }
+        }
+        &__sublogo {
+            font-size: 12px;
+        }
+        ul {
+            font-size: 12px;
+            li {
+                padding-left: 30px;
+            }
+        }
+        &__img {
+            img {
+                width: 400px;
+            }
+        }
+        &__button {
+            margin-top: 20px;
+            width: 180px;
+        }
+    }
+    .phone {
+        &__list {
+            &__round {
+                margin-right: 15px;
+                width: 50px;
+                height: 50px;
+                img {
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+            &__text {
+                span {
+                    font-size: 16px;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+        &__leave {
+            width: 400px;
+        }
+        &__img {
+            right: 200px;
+        }
+    }
+    .screens {
+        .carousel {
+            width: 490px;
+            overflow: hidden;
+            img {
+                height: 300px;
+                box-shadow: none;
+            }
+        }
+    }
+    .customers {
+        padding: 40px 40px 20px 40px;
+        &__review_1 {
+            padding: 30px;
+            height: 210px;
+        }
+        &__text {
+            font-size: 12px;
+        }
+        &__person {
+            margin-top: 20px;
+            img {
+                width: 60px;
+                height: 60px;
+            }
+        }
+        &__txt {
+            font-size: 12px;
+            span {
+                font-size: 14px;
+            }
+        }
+    }
+    .app {
+        height: 210px;
+        padding: 40px;
+        &__app {
+            width: 250px;
+            a {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+        &__apps {
+            margin-top: 15px;
+        }
+        &__title {
+            font-size: 24px;
+        }
+    }
+    .footer {
+        height: 120px;
+        &__text {
+            margin-top: 15px;
+        }
+    }
+    .prev {
+        display: none;
+    }
+    .next {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 450px;
+      }
+    .header {
+        &__logo {
+            display: none;
+        }
+        }
+    .promo {
+        height: 550px;
+        &__img {
+           img {
+               display: none;
+           }
+        }
+        &__descr {
+            h1 {
+                margin-top: 50px;
+            }
+        }
+    }
+    .phone {
+        height: 850px;
+        &__list {
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-auto-rows: 1fr;
+            column-gap: 10px;
+            row-gap: 15px;
+            &__item {
+                align-self: start;
+            }
+            &__round {
+                display: none;
+            }
+            &__text {
+                width: 200px;
+                margin-bottom: 15px;
+                span {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+        hr {
+            margin-top: 20px;
+        }
+        &__img {
+            display: none;
+        }
+        &__leave {
+            position: relative;
+            bottom: 0;
+            margin: 20px auto;
+            text-align: center;
+            width: 400px;
+            ul {
+                width: 400px;
+            }
+            &__text_1 {
+                width: 400px;
+            }
+            &__text_2 {
+                width: 400px;
+            }
+
+            ul li {
+                background: none;
+                padding-left: 0;
+            }
+        }
+        .last {
+            margin-top: 0;
+        }
+    }
+    .screens {
+        padding: 30px;
+        &__title {
+            font-size: 28px;
+        }
+        &__subtitle {
+            width: 100%;
+        }
+    }
+    .customers {
+        &__subtitle {
+            width: 100%;
+        }
+    }
+    .packages {
+        &__subtitle {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+      width: 250px;
+    }
+    .header {
+        &__button {
+            transform: none;
+            display: block;
+            margin: 10px auto;
+        }
+       &__links {
+           display: block;
+           a {
+               display: block;
+               text-align: center;
+           }
+       }
+    }
+    .promo {
+        height: 700px;
+        &__descr {
+            width: 100%;
+            h1 {
+                margin-top: 20px;
+            }
+        }
+    }
+    .phone {
+        height: 1250px;
+        &__leave {
+            ul {
+                display: none;
+            }
+            width: 100%;
+            &__text_1 {
+                width: 100%;
+            }
+            &__text_2 {
+                width: 100%;
+            }
+        }
+        &__list {
+            display: flex;
+        }
+    }
+    .screens {
+        .carousel {
+            width: 100%;
+        }
+    }
+}

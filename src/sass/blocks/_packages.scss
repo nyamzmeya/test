@@ -1,0 +1,119 @@
+.packages {
+    padding-top: 118px;
+    &__list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__title {
+        text-align: center;
+        font-family: Dosis;
+        font-size: 36px;
+        line-height: 30px;
+        font-weight: 500;
+        color: #222222;
+    }
+    &__subtitle {
+        margin: 23px auto;
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #777777;
+        text-align: center;
+        width: 656px;
+    }
+    &__item {
+        width: 263px;
+        height: 481px;
+        background-image: url('../../img/white.png');
+        &:hover {
+            background-image: url('../../img/gradient.png');
+            box-shadow: 0px 0px 18px -6px #000000;
+        }
+    }
+    &__text {
+        margin-top: 15px;
+        text-align: center;
+        &_name {
+            font-family: Dosis;
+            font-size: 20px;
+            line-height: 24px;
+            font-weight: 400;
+            color: #333333;
+        }
+        &_price {
+            font-size: 48px;
+            margin-top: 20px;
+            font-weight: 500;
+            color: #333333;
+            font-family: Dosis;
+            &:hover {
+                font-family: Dosis;
+                font-size: 48px;
+                margin-top: 20px;
+                font-weight: 500;
+                color: #ffffff;
+                span {
+                    font-size: 18px;
+                }
+            }
+            span {
+                font-size: 18px;
+            }
+        }
+        &_1 {
+            font-family: Roboto;
+            font-size: 14px;
+            line-height: 30px;
+            font-weight: 300;
+            color: #777777;
+            &_1 {
+                font-family: Roboto;
+                font-size: 14px;
+                line-height: 30px;
+                font-weight: 300;
+                color: #777777;
+                margin-top: 80px;
+            }
+        }
+        &_2 {
+            display: block;
+            margin-top: 45px;
+            font-family: Roboto;
+            font-size: 14px;
+            line-height: 23px;
+            font-weight: 300;
+            color: #aaaaaa;
+        }
+        
+    }
+    &__button {
+        display: block;
+        cursor: pointer;
+        margin: 14px auto;
+        width: 139px;
+        height: 40px;
+        border: 1px solid #eeeeee;
+        border-radius: 20px;
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 23px;
+        font-weight: 500;
+        color: #333333;
+        &:hover {
+            margin-top: 14px;
+            border: 3px solid rgba(0,0,0,0.09);
+            width: 139px;
+            height: 40px;
+            border-radius: 20px;
+            font-family: Roboto;
+            font-size: 14px;
+            line-height: 23px;
+            font-weight: 500;
+            color: #ffffff;
+            background-image: linear-gradient(90.0deg, #fd712c 0%, #f21780 100%);
+        }
+    }
+}

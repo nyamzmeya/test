@@ -1,0 +1,75 @@
+.customers {
+    padding: 120px;
+    &__title {
+        font-family: Dosis;
+        font-size: 36px;
+        line-height: 30px;
+        font-weight: 500;
+        color: #222222;
+        text-align: center;
+    }
+    &__subtitle {
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #777777;
+        text-align: center;
+        width: 658px;
+        display: block;
+        margin: 23px auto;
+    }
+    &__reviews {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    &__review_1 {
+        padding: 41px;
+        width: 360px;
+        height: 273px;
+        background-color: #f7fafc;
+        &:hover {
+            padding: 41px;
+            width: 360px;
+            height: 273px;
+            background-color: white;
+            box-shadow: 0px 0px 18px -6px #000000;
+        }
+    }
+    &__text {
+        display: block;
+        width: 268px;
+        margin: 0 auto;
+        text-align: left;
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #777777;
+    }
+    &__person {
+        display: flex;
+        margin-top: 29px;
+        justify-content: left;
+        img {
+            margin-right: 20px;
+        }
+    }
+
+    &__txt {
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #777777;
+        span {
+            display: block;
+            font-family: Dosis;
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: 400;
+            color: #222222;
+        }
+    }
+}

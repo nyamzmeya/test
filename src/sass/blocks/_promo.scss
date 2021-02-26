@@ -1,0 +1,64 @@
+.promo {
+    position: relative;
+    height: 801px;
+    background: linear-gradient(90deg, #fd712b 0%, #f21680 100%);
+    padding-top: 28px;
+    &__descr {
+        width: 475px;
+        h1 {
+            margin-top: 149px;
+            font-size: 54px;
+            line-height: 60px;
+            color: #ffffff;
+            font-weight: 600;
+        }
+    }
+    ul {
+        margin-top: 24px;
+        font-size: 14px;
+        color: #ffffff;
+        font-weight: 400;
+        list-style: none;
+        padding-inline-start: 0;
+        li {
+            padding-left: 36px;
+            margin-bottom: 10px;
+            font-family: "Roboto";
+            background: url('../../img/tick.png') 3px no-repeat;
+        }
+                
+        
+        
+    }
+    &__button{
+        margin-top: 28px;
+        font-size: 14px;
+        line-height: 30px;
+        color: #222222;
+        font-weight: 500;
+        font-family: "Roboto";
+        text-align: center;
+        width: 202px;
+        height: 50px;
+        background-color: #ffffff;
+        border: 5px solid rgba(0,0,0,0.09);
+        box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.1);
+        border-radius: 20px;
+    }
+    &__sublogo{
+        margin-top: 23px;
+        font-size: 14px;
+        line-height: 24px;
+        color: #ffffff;
+        font-weight: 300;
+        font-family: "Roboto";
+    }
+    &__img {
+        position: absolute;
+        top: 146px;
+        right: 0;
+        img {
+            width: 800px;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.app {
+    padding: 120px;
+    background: linear-gradient(90deg, #fd712b 0%, #f21680 100%);
+    height: 472px;
+    &__title {
+        text-align: center;
+        font-family: Dosis;
+        font-size: 36px;
+        line-height: 24px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+    &__apps {
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+    }
+
+}

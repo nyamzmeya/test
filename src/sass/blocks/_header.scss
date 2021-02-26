@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    &__links {
+        width: 441px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        a {
+            font-size: 16px;
+            line-height: 24px;
+            color: #ffffff;
+            font-weight: 600;
+            &:hover {
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+        }
+    }
+    &__button {
+        width: 153px;
+        height: 35px;
+        border-radius: 17px;
+        background-color: #ffffff;
+        border: none;
+        font-size: 16px;
+        line-height: 24px;
+        color: #222222;
+        font-weight: 700;
+        text-align: center;
+        transform: translateY(25%);
+    }
+}
